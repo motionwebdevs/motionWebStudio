@@ -1,0 +1,163 @@
+html,
+body {
+    background: #222222;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    background: rgba(86, 0, 0, .13);
+    backdrop-filter: blur(20px);
+    z-index: 2;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#hero {
+    background: url("./../assets/images/bg.png") no-repeat center/cover;
+    min-height: 100vh;
+    padding-top: 150px;
+}
+
+.hero-title {
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: items 6s;
+    animation: items 6s;
+    background: linear-gradient(266.17deg, #c50000 29.07%, rgba(218, 97, 97, .841) 40.08%, rgba(255, 0, 0, .6) 54.02%, #d24343 63.48%, rgba(255, 0, 0, .71) 72.23%, red 82.19%, rgba(255, 0, 30, .42) 91.27%, #ff001e);
+    -webkit-background-clip: text;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .003em;
+    line-height: 110%;
+}
+
+.hero-title1 {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120%;
+    /* or 120px */
+
+    letter-spacing: 0.003em;
+
+    color: #FFFFFF;
+
+}
+
+
+.MuiInput-input, .MuiInputLabel-root {
+    color: #FFFFFF !important;
+
+}
+
+label + .css-1480iag-MuiInputBase-root-MuiInput-root {
+    color: #FFFFFF !important;
+}
+
+.MuiOutlinedInput-input {
+    padding: 10px 60px;
+}
+
+
+.modal-lang img {
+    cursor: pointer;
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.languages {
+    margin-top: -20px;
+    position: absolute;
+    transform: translateY(-50px);
+    transition: 0.4s;
+}
+
+.lang:hover .languages {
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.modal-lang:hover .languages {
+    display: block;
+    position: absolute;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.optionRU {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 20px black;
+    padding: 8px;
+
+}
+
+.optionKYR:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.49);
+}
+
+.optionRU:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.49);
+}
+
+.btn_tit {
+    color: white;
+    background: transparent;
+    border: none;
+}
+
+.optionKYR {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 20px black;
+
+}
+
+select:focus-visible {
+    outline: none;
+}
+
+
+.lang-btn {
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3), 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.lang {
+    padding-left: 0;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.lang-btn:hover {
+    box-shadow: none;
+}
+
+.btn_lang {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
